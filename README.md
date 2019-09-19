@@ -473,7 +473,8 @@ make && sudo make install
 
 #### 额外编译参数
 
-> 使用例子: `./configure --enable-openssl --enable-sockets`
+> 使用例子1: `./configure --enable-openssl --enable-sockets`
+> 使用例子2: `./configure --with-openssl-dir=./openssl-1.0.2k --enable-sockets`
 
 - `--enable-openssl` 或 `--with-openssl-dir=./openssl-1.0.2k`     (`wget http://ftp.openssl.org/source/old/1.0.2/openssl-1.0.2k.tar.gz .  && tar openssl-1.0.2k.tar.gz`)
 - `--enable-sockets`

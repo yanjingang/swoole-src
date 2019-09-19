@@ -475,7 +475,7 @@ make && sudo make install
 
 > 使用例子: `./configure --enable-openssl --enable-sockets`
 
-- `--enable-openssl` 或 `--with-openssl-dir=DIR`
+- `--enable-openssl` 或 `--with-openssl-dir=./openssl-1.0.2k`     (`wget http://ftp.openssl.org/source/old/1.0.2/openssl-1.0.2k.tar.gz .  && tar openssl-1.0.2k.tar.gz`)
 - `--enable-sockets`
 - `--enable-http2`
 - `--enable-mysqlnd` (需要 mysqlnd, 只是为了支持`mysql->escape`方法)

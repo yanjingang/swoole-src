@@ -473,10 +473,9 @@ make && sudo make install
 
 #### 额外编译参数
 
-> 使用例子1: `./configure --enable-openssl --enable-sockets`
-> 使用例子2: `./configure --with-openssl-dir=./openssl-1.0.2k --enable-sockets`
+> 使用例子: `./configure --enable-openssl --enable-sockets`  (`sudo yum/apt install openssl  && cp xxxxxx/openssl ./include/  -r`)
 
-- `--enable-openssl` 或 `--with-openssl-dir=./openssl-1.0.2k`     (`wget http://ftp.openssl.org/source/old/1.0.2/openssl-1.0.2k.tar.gz .  && tar openssl-1.0.2k.tar.gz`)
+- `--enable-openssl` 或 `--with-openssl-dir=./openssl-1.0.2k`     (`wget http://ftp.openssl.org/source/old/1.0.2/openssl-1.0.2k.tar.gz .  && tar openssl-1.0.2k.tar.gz && `)
 - `--enable-sockets`
 - `--enable-http2`
 - `--enable-mysqlnd` (需要 mysqlnd, 只是为了支持`mysql->escape`方法)
